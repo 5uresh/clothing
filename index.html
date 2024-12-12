@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Clothing Store</h1>
+        <button id="cartButton" class="cart-button">🛒 View Cart</button>
+        
+    </header>
+    <main id="products-container"></main>
+     <!-- Cart Canvas -->
+     <div id="cartCanvas" class="cart-canvas">
+        <div class="cart-header">
+            <h4>Shopping Cart</h4>
+            <button id="closeCart" class="close-button">&times;</button>
+        </div>
+        <div class="cart-content">
+            
+            <main id="cart-container">
+                <h4>Cart is empty!</h4>
+            </main>
+        </div>
+        <div class="cart-footer">
+            <button class="checkout-button"><span id="total-price">$0.00</span></button>
+        </div>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay" class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
